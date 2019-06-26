@@ -11,7 +11,7 @@ export default class Technology extends React.Component{
         refreshing:false
     }
     loadnews = () => {
-        Axios.get('https://newsapi.org/v2/top-headlines?country=in&category=technology&pageSize=100&apiKey=b2fe096b9727464c8d5f42f48c1614a6')
+        Axios.get('https://newsapi.org/v2/top-headlines?country=in&category=technology&pageSize=100&apiKey=YOUR_API_KEY')
         .then((response)=>{
             console.log(response)
             this.setState({data:response.data.articles,isLoading:false})
