@@ -11,6 +11,7 @@ Third Part Components used in this project : -
 
     1. Native Base.
     2. Axios (To fetch the API).
+    3. Expo
     
 The App is also available on Play Store in the name of 'NewsGo'. Please Check it out...
 Here is the link to the play store App :- https://play.google.com/store/apps/details?id=com.duocoders.newsgo
