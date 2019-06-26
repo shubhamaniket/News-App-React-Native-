@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NewsGo",
+    "slug": "NewsGo",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android":{
+      "package":"com.duocoders.newsgo",
+      "permissions":["INTERNET"],
+      "versionCode": 2
+    },
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/index.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
